@@ -1,0 +1,34 @@
+.projects {
+  padding:  2em;
+  width: 85%;
+  margin: 0 auto;
+
+}
+
+.projects .title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+.projects .container {
+  /* width: 1200px; */
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: .6em;
+}
+
+.projects .min-height {
+  min-height: 75%;
+}
+
+.projects .start {
+  justify-content: start;
+}
+
+.projects .collumn {
+  flex-direction: column;
+  justify-content: flex-start;
+}

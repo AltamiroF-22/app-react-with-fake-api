@@ -1,0 +1,15 @@
+.new-projects {
+   width: 550px;
+   margin: 0 auto;
+   padding: 3rem;
+   text-align: center;
+
+}
+
+.new-projects h1 {
+   margin-bottom: 0.5em;
+   
+}
+.new-projects p {
+   color: #7b7b7b;
+}

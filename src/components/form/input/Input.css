@@ -1,0 +1,33 @@
+.form-controller {
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 1em;
+   text-align: start;
+}
+
+.form-controller label {
+   margin-bottom: .6em;
+   font-weight: 600;
+}
+.dark-theme .form-controller label {
+   color: var(--background-color-on-darkMode);
+}
+
+.form-controller input {
+   padding: .6em;
+   border-radius: 0;
+   border: none;
+   background-color: #e9e9e9;
+}
+.dark-theme .form-controller input {
+   border: solid 1px #b7b7b7e9;
+}
+
+.form-controller input::placeholder {
+   color: #7b7b70e9;
+   font-size: .6em;
+   text-align: start;
+}
+.dark-theme .form-controller input::placeholder{
+   color: var(--purple-color);
+}

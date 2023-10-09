@@ -1,0 +1,12 @@
+.btn-module {
+  background-color: var(--purple-color);
+  color: #e9e9e9;
+  padding: .5em 1rem;
+  border-radius: 20px;
+  transition: .2s;
+  }
+
+.btn-module:hover {
+  background-color: var(--purple-color-on-hover);
+  color: #e9e9e9;
+}

@@ -1,0 +1,34 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  background-color: var(--background-color-on-darkMode);
+  margin-top: 3.5em;
+
+  padding: 2rem 0;
+}
+
+footer ul {
+  display: flex;
+  gap: 10px;
+}
+
+footer ul > li {
+  cursor: pointer;
+  transition: 0.15s;
+  border-bottom: solid 2px transparent;
+}
+footer ul > li:hover {
+  border-bottom: solid 2px var(--purple-color-on-hover);
+}
+
+footer p {
+  color: #e9e9e9;
+  text-align: center;
+}
+
+.dark-theme footer p,
+.dark-theme footer p span {
+  color: #e9e9e9;
+}
